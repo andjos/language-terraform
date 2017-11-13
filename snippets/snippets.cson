@@ -315,12 +315,10 @@
     }$4
   """
 
-  'provider-alicloud':
-    'prefix': 'provider-alicloud'
+  'locals':
+    'prefix': 'locals'
     'body': """
-	provider "alicloud" {
-		access_key = "${1}"
-		secret_key = "${2}"
-		region = "${3}"
-	}${4}
-    """
+    locals "$1" {
+      $2
+    }$3
+  """
