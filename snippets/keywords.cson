@@ -7563,6 +7563,10 @@
     'prefix': 'locale'
     'body': "locale"
 
+  'locals':
+    'prefix': 'locals'
+    'body': "locals"
+
   'local_file_path':
     'prefix': 'local_file_path'
     'body': "local_file_path"
@@ -13678,4 +13682,3 @@
   'zones':
     'prefix': 'zones'
     'body': "zones"
-
